@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ padding:0px; margin:0px; font-size:12px; background:#1239e8;}
+.form-container{ background:#fff; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+ border-radius:5px; margin:20px 0px; padding:25px;}
+ .logo img{ text-align:center; margin:5% auto; width:300px;}
+ .logo{ text-align:center;}
+ .btn-default{ background:#1239e8; padding:13px; color:#fff; font-size:16px;}
+  .btn-default:hover, .btn-default:focus,.btn-default:active{background:#0924a0; color:#fff!important;}
+ .forgot{ margin:7% 0% 0% 0%; }
+ .form-container .form-control{ border:none;  box-shadow:none; border-bottom:#ddd solid 1px;}
+ .forgot a{ text-decoration:underline; color:#000; font-size:14px;}
+ .btn-warning{ background:#feac08; color:#fff; width:86%!important; margin:7%;}
+ .viewholder{ position:relative;}
+ .viewpwd{ position:absolute; right:10px; bottom:10px; text-align:right; width:25px; height:auto; z-index:1452;}
+ .viewpwd .glyphicon{ color:#ccc; cursor:pointer;}
+.verifyTxt {display: block; text-align: center; font-size: 13px;}
+.verifyCode {display: block; text-align: center; font-weight: 300 width: 180px; text-transform: uppercase; min-width: 120px; width: 120px; font-size: 20px; text-align: center; color: #101010; padding: .32em 0; margin: 0 auto; border-width: 2px;}
+ 
+ @media(max-width:690px)
+ {
+	.logo img{ width:150px; margin:30px 0px;} 
+ }

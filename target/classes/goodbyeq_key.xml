@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This file contains the material used to generate all symmetric keys 
+    used by the billlive.
+-->
+<key-chain xmlns="http://idp.aol.com/NS/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://idp.aol.com/NS/1.0 http://auth.office.aol.com/schemas/idp_key.xsd" version="1.0">
+    <key-name name="bl_sc_e">
+        <description>
+            Message encryption key
+        </description>
+        <key-spec version="1" algorithm="AES">
+            nkj9inJK7823hhanq87caj3sahgjyuhH8i98BQjXZjXm3fwjuPj
+        </key-spec>
+    </key-name>
+
+    <key-name name="bl_hmac">
+        <description>
+            Message authentication key for HMAC
+        </description>
+        <key-spec version="1" algorithm="HmacSHA256">
+            nmiUNunUI94ic92JbjhbuiBsB78hTbnVxYPr0cTkjnYHn9UBhvh
+        </key-spec>
+    </key-name>
+</key-chain>
